@@ -60,8 +60,9 @@ __OpenCore config__
 
 Follow these instructions to configure your OpenCore:  
 https://github.com/dortania/vanilla-laptop-guide  
-- Audio Layout 30
 - For touchpad use patch `SSDT-XOSI.aml` and rename XOSI
+- I use `alcid=29` it seems fine, however I have not tried it with the headphone jack yet. If that doesn't work, try `alcid=30` 
+- For power management, create your own CPUFriend
 
 __Fix brightness key__
 
