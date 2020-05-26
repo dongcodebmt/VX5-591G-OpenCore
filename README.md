@@ -14,7 +14,7 @@ __My Specs__
 | iGPU | Intel HD Graphics 630 |
 | dGPU | NVIDIA GeForce GTX 1050M |
 | Touchpad | ELAN 0501 |
-| Wireless | Intel® Dual Band Wireless-AC 7265 |
+| Wireless | BCM94360CS2 + Adapter |
 | Audio | ALC255 |
 
 ![Specs](/image.png)
@@ -24,15 +24,17 @@ __Tested and working__
 - [x] Intel HD Graphics 630
 - [x] USB
 - [x] Webcam
-- [x] HDMI + HDMI Audio
 - [x] LAN
 - [x] Screen brightness
 - [x] Battery status
 - [x] Sleep/Wake
-- [x] Audio + Headphone + Internal Mic
 - [x] TouchPad with gestures
+- [x] WiFi
+- [x] Bluetooth
+- [x] Airdrop + Handoff
+- [x] HDMI + HDMI Audio
+- [x] Audio + Headphone + Internal Mic
 - [x] Keyboard with backlight (Some function keys not work)
-- [x] Bluetooth (Can't off) 
 
 __Not tested__
 
@@ -42,7 +44,6 @@ __Not working__
 
 - [ ] NVIDIA GeForce GTX 1050M
 - [ ] SD Card reader
-- [ ] WiFi
 - [ ] and a few other minor bugs
 
 For wifi and bluetooth to work you need to replace another wireless card
@@ -61,7 +62,7 @@ __OpenCore config__
 Follow these instructions to configure your OpenCore:  
 https://github.com/dortania/vanilla-laptop-guide  
 - For touchpad use patch `SSDT-XOSI.aml` and rename XOSI
-- I use `alcid=29` it seems fine, however I have not tried it with the headphone jack yet. If that doesn't work, try `alcid=30` 
+- Audio layout ID 29
 - For power management, create your own CPUFriend
 
 __Fix brightness key__
