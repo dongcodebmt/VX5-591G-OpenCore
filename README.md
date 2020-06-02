@@ -91,9 +91,11 @@ And at `Root > ACPI > Patch`:
 |Limit|Number|0|
 |Replace|Data|58513132|
 
-__Fix Timezone (Dual Boot)__
+__Fix Dual Boot__
 
-See: https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/
+- Use rEFInd to dual boot with Windows  
+- Fix timezone: https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/  
+
 ## Credits
 
 Thanks to Acidanthera, dortania, alexandred
