@@ -31,8 +31,8 @@ __Tested and working__
 - [x] TouchPad with gestures
 - [x] WiFi
 - [x] Bluetooth
+- [x] HDMI
 - [x] Airdrop + Handoff
-- [x] HDMI + HDMI Audio
 - [x] Audio + Headphone + Internal Mic
 - [x] Keyboard with backlight (Some function keys not work)
 
@@ -61,13 +61,13 @@ __OpenCore config__
 
 Follow these instructions to configure your OpenCore:  
 https://github.com/dortania/vanilla-laptop-guide  
-- For touchpad use patch `SSDT-XOSI.aml` and rename XOSI
+ACPI Hotpatch:  
+https://github.com/daliansky/OC-little  
 - Audio layout ID 29
-- For power management, create your own CPUFriend
 
 __Fix brightness key__
 
-Use patch `SSDT-Q11-Q12.aml`  
+Use patch `SSDT-BKEY.aml`  
 And at `Root > ACPI > Patch`:  
 - XQ11 Rename
 
@@ -93,7 +93,6 @@ And at `Root > ACPI > Patch`:
 
 __Fix Dual Boot__
 
-- Use rEFInd to dual boot with Windows  
 - Fix timezone: https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/  
 
 ## Credits
