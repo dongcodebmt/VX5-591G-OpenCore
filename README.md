@@ -8,7 +8,7 @@ __My Specs__
 | Specs | Details |
 |------------|-------------------------------|
 | Model | Acer Aspire VX15 (VX5-591G) |
-| OS | macOS Catalina 10.15.5 |
+| OS | macOS Catalina 10.15.6 |
 | CPU | Intel(R) Core(TM) i5 7300HQ |
 | RAM | 16 GB DDR4 2400MHz |
 | iGPU | Intel HD Graphics 630 |
@@ -97,6 +97,6 @@ __Fix Dual Boot__
 
 ## Credits
 
-Thanks to Acidanthera, dortania, alexandred
+Thanks to Acidanthera, dortania, alexandred, daliansky
 
 *__Enjoy__*
