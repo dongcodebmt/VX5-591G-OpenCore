@@ -42,6 +42,7 @@ __Not tested__
 
 __Not working__
 
+- [ ] HDMI Audio (Occasionally there is activity)
 - [ ] NVIDIA GeForce GTX 1050M
 - [ ] SD Card reader
 - [ ] and a few other minor bugs
