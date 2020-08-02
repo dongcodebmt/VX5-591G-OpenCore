@@ -35,10 +35,7 @@ __Tested and working__
 - [x] Airdrop + Handoff
 - [x] Audio + Headphone + Internal Mic
 - [x] Keyboard with backlight (Some function keys not work)
-
-__Not tested__
-
-- [ ] USB C (I don't have a device to test)
+- [x] iServices (See how to fix it [here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html))
 
 __Not working__
 
@@ -59,11 +56,18 @@ __BIOS Settings (Version 1.08)__
 
 __OpenCore config__
 
-Follow these instructions to configure your OpenCore:  
-https://github.com/dortania/vanilla-laptop-guide  
-ACPI Hotpatch:  
-https://github.com/daliansky/OC-little  
+- Follow these instructions to configure your OpenCore: https://dortania.github.io/OpenCore-Install-Guide/  
+- ACPI Hotpatch: https://github.com/daliansky/OC-little  
 - Audio layout ID 29
+
+__Fix HDMI audio__
+
+- Patch framebuffer: https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md
+- Add kext: `FakePCIID.kext` (kext at this repo)  
+
+__Fix iServices__
+
+- Fix iServices: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html
 
 __Fix brightness key__
 
