@@ -101,6 +101,6 @@ __Fix Dual Boot__
 
 ## Credits
 
-Thanks to Acidanthera, dortania, alexandred, daliansky
+Thanks to Acidanthera, RehabMan, dortania, alexandred, daliansky
 
 *__Enjoy__*
