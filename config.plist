@@ -390,22 +390,6 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>BundlePath</key>
-				<string>SMCDellSensors.kext</string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCDellSensors</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>BundlePath</key>
 				<string>SMCLightSensor.kext</string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCLightSensor</string>
@@ -425,22 +409,6 @@
 				<string>SMCProcessor.kext</string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCProcessor</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>BundlePath</key>
-				<string>SMCSuperIO.kext</string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
