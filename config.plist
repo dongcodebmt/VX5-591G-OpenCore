@@ -374,9 +374,9 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>BundlePath</key>
-				<string>SATA-unsupported.kext</string>
+				<string>SMCBatteryManager.kext</string>
 				<key>ExecutablePath</key>
-				<string></string>
+				<string>Contents/MacOS/SMCBatteryManager</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -390,9 +390,9 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>BundlePath</key>
-				<string>SMCBatteryManager.kext</string>
+				<string>SMCDellSensors.kext</string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCBatteryManager</string>
+				<string>Contents/MacOS/SMCDellSensors</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
