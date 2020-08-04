@@ -35,7 +35,7 @@ __Tested and working__
 - [x] Airdrop + Handoff
 - [x] Audio + Headphone + Internal Mic
 - [x] Keyboard with backlight (Some function keys not work)
-- [x] iServices (See how to fix it [here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html))
+- [x] iServices
 
 __Not working__
 
@@ -59,6 +59,10 @@ __OpenCore config__
 - Follow these instructions to configure your OpenCore: https://dortania.github.io/OpenCore-Install-Guide/  
 - ACPI Hotpatch: https://github.com/daliansky/OC-little  
 - Audio layout ID 29
+
+__USB Mapping__
+
+- USB Mapping: https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html
 
 __Fix HDMI audio__
 
