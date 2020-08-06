@@ -233,24 +233,12 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AAAbWQ==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
 				<key>hda-gfx</key>
 				<data>b25ib2FyZC0xAA==</data>
 				<key>force-online</key>
 				<data>AQAAAA==</data>
 				<key>force-online-framebuffers</key>
 				<data>AAAAAAAAAAE=</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
