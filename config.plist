@@ -58,6 +58,22 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Comment</key>
+				<string>SSDT-HRT.aml</string>
+				<key>Path</key>
+				<string>SSDT-HRT.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
+				<string>SSDT-IPIC.aml</string>
+				<key>Path</key>
+				<string>SSDT-IPIC.aml</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Comment</key>
 				<string>SSDT-MCHC.aml</string>
 				<key>Path</key>
 				<string>SSDT-MCHC.aml</string>
