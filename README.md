@@ -1,7 +1,6 @@
 # Acer Aspire VX15 Hackintosh
 
-If you want to use Clover see here:  
-https://github.com/dongcodebmt/VX5-591G-Hackintosh
+![Specs](/image.png)
 
 __My Specs__
 
@@ -16,8 +15,6 @@ __My Specs__
 | Touchpad | ELAN 0501 |
 | Wireless | BCM94360CS2 + Adapter |
 | Audio | ALC255 |
-
-![Specs](/image.png)
 
 __Tested and working__
 
