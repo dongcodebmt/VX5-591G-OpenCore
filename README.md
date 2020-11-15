@@ -38,6 +38,7 @@ __Not working__
 
 - [ ] NVIDIA GeForce GTX 1050M
 - [ ] SD Card reader
+- [ ] DRM
 - [ ] and a few other minor bugs
 
 For wifi and bluetooth to work you need to replace another wireless card
