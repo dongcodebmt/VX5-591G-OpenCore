@@ -7,7 +7,7 @@ __My Specs__
 | Specs | Details |
 |------------|-------------------------------|
 | Model | Acer Aspire VX15 (VX5-591G) |
-| OS | macOS Big Sur 11.0 beta  |
+| OS | macOS Big Sur 11.0.1  |
 | CPU | Intel(R) Core(TM) i5 7300HQ |
 | RAM | 16 GB DDR4 2400MHz |
 | iGPU | Intel HD Graphics 630 |
@@ -38,6 +38,7 @@ __Not working__
 
 - [ ] NVIDIA GeForce GTX 1050M
 - [ ] SD Card reader
+- [ ] DRM
 - [ ] and a few other minor bugs
 
 For wifi and bluetooth to work you need to replace another wireless card
