@@ -13,7 +13,7 @@ __My Specs__
 | iGPU | Intel HD Graphics 630 |
 | dGPU | NVIDIA GeForce GTX 1050M |
 | Touchpad | ELAN 0501 |
-| Wireless | BCM94360CS2 + Adapter |
+| Wireless | Intel(R) Wireless-AC 7265 |
 | Audio | ALC255 |
 
 __Tested and working__
@@ -40,8 +40,6 @@ __Not working__
 - [ ] SD Card reader
 - [ ] DRM
 - [ ] and a few other minor bugs
-
-For wifi and bluetooth to work you need to replace another wireless card
 
 ## Guide
 
@@ -103,6 +101,6 @@ __Fix Dual Boot__
 
 ## Credits
 
-Thanks to Acidanthera, RehabMan, dortania, alexandred, daliansky
+Thanks to Acidanthera, RehabMan, dortania, alexandred, daliansky, OpenIntelWireless
 
 *__Enjoy__*
