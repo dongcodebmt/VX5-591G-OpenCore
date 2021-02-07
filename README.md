@@ -7,7 +7,7 @@ __My Specs__
 | Specs | Details |
 |------------|-------------------------------|
 | Model | Acer Aspire VX15 (VX5-591G) |
-| OS | macOS Big Sur 11.0.1  |
+| OS | macOS Big Sur 11.2  |
 | CPU | Intel(R) Core(TM) i5 7300HQ |
 | RAM | 16 GB DDR4 2400MHz |
 | iGPU | Intel HD Graphics 630 |
@@ -41,6 +41,9 @@ __Not working__
 - [ ] DRM
 - [ ] and a few other minor bugs
 
+If touchpad and USB port are not working  
+Use this repo: https://github.com/dongcodebmt/VX5-591G-OpenCore/tree/XOSI (You need to patch your USB port)
+
 ## Guide
 
 __BIOS Settings (Version 1.08)__
@@ -58,7 +61,7 @@ __OpenCore config__
 
 __USB Mapping__
 
-- USB Mapping: https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html
+- USB Mapping: https://github.com/corpnewt/USBMap
 
 __Fix HDMI audio__
 
