@@ -42,7 +42,7 @@ __Not working__
 - [ ] and a few other minor bugs
 
 If touchpad and USB port are not working  
-Use this repo: https://github.com/dongcodebmt/VX5-591G-OpenCore/tree/XOSI (You need to patch your USB port)
+Use this repo: https://github.com/dongcodebmt/VX5-591G-OpenCore/tree/XOSI
 
 ## Guide
 
