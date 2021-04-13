@@ -1,48 +1,12 @@
 # Acer Aspire VX15 Hackintosh
 
-![Specs](/image.png)
+__Why is there this repo?__
 
-__My Specs__
-
-| Specs | Details |
-|------------|-------------------------------|
-| Model | Acer Aspire VX15 (VX5-591G) |
-| OS | macOS Big Sur 11.2  |
-| CPU | Intel(R) Core(TM) i5 7300HQ |
-| RAM | 16 GB DDR4 2400MHz |
-| iGPU | Intel HD Graphics 630 |
-| dGPU | NVIDIA GeForce GTX 1050M |
-| Touchpad | ELAN 0501 |
-| Wireless | Intel(R) Wireless-AC 7265 |
-| Audio | ALC255 |
-
-__Tested and working__
-
-- [x] Intel HD Graphics 630
-- [x] USB
-- [x] Webcam
-- [x] LAN
-- [x] Screen brightness
-- [x] Battery status
-- [x] Sleep/Wake
-- [x] TouchPad with gestures
-- [x] WiFi
-- [x] Bluetooth
-- [x] HDMI + HDMI Audio
-- [x] Airdrop + Handoff
-- [x] Audio + Headphone + Internal Mic
-- [x] Keyboard with backlight (Some function keys not work)
-- [x] iServices
-
-__Not working__
-
-- [ ] NVIDIA GeForce GTX 1050M
-- [ ] SD Card reader
-- [ ] DRM
-- [ ] and a few other minor bugs
-
-If touchpad and USB port are not working  
-Use this repo: https://github.com/dongcodebmt/VX5-591G-OpenCore/tree/XOSI
+Some other models of VX15 don't work with patches from master branch. This repo will fix those problems  
+Changes compared to master branch:  
+- Trackpad: SSDT-TPAD.aml => SSDT-XOSI.aml 
+- USB Ports: USBMap.kext => USBInjectAll.kext 
+- Brightness adjustment: SSDT-PNLF.aml  
 
 ## Guide
 
