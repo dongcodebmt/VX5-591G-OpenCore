@@ -7,7 +7,7 @@ __My Specs__
 | Specs | Details |
 |------------|-------------------------------|
 | Model | Acer Aspire VX15 (VX5-591G) |
-| OS | macOS Big Sur 11.2  |
+| OS | macOS Big Sur && Windows 10  |
 | CPU | Intel(R) Core(TM) i5 7300HQ |
 | RAM | 16 GB DDR4 2400MHz |
 | iGPU | Intel HD Graphics 630 |
