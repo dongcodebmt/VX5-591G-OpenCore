@@ -18,3 +18,5 @@ Changes compared to master branch:
 |Find|Data|5F4F5349|
 |Limit|Number|0|
 |Replace|Data|584F5349|
+
+Watch video to create your config: https://youtu.be/bIsj1rCC0vk
