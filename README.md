@@ -7,7 +7,7 @@ __My Specs__
 | Specs | Details |
 |------------|-------------------------------|
 | Model | Acer Aspire VX15 (VX5-591G) |
-| OS | macOS Big Sur && Windows 10  |
+| OS | macOS Monterey && Windows 10  |
 | CPU | Intel(R) Core(TM) i5 7300HQ |
 | RAM | 16 GB DDR4 2400MHz |
 | iGPU | Intel HD Graphics 630 |
@@ -62,11 +62,6 @@ __OpenCore config__
 __USB Mapping__
 
 - USB Mapping: https://github.com/corpnewt/USBMap
-
-__Fix HDMI audio__
-
-- Patch framebuffer: https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md
-- Add kext: `FakePCIID.kext` (kext at this repo)  
 
 __Fix iServices__
 
