@@ -59,6 +59,11 @@ __OpenCore config__
 - ACPI Hotpatch: https://github.com/daliansky/OC-little  
 - Audio layout ID 29
 
+__Install MacOS__
+
+- Create bootable USB: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/  
+- If you have problems installing Catalina or later. Install Mojave then you can update to newer version.
+
 __USB Mapping__
 
 - USB Mapping: https://github.com/corpnewt/USBMap
