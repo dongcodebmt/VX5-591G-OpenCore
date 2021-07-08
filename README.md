@@ -195,7 +195,9 @@ user@cloudshell:~$ cloudshell download OC.zip
 ```
 
 You now have the necessary files. Let's continue [here](https://github.com/dortania/OpenCore-Post-Install/blob/secureboot/universal/security/uefisecureboot.md#insyde-h2o).   
-Keep `ISK.key` and `ISK.pem` so that each OpenCore upgrade you will only need to sign the necessary files and replace them in the UEFI directory. You won't need to repeat the key generation and key adding steps.
+*__Note:__*
+- Keep `ISK.key` and `ISK.pem` so that each OpenCore upgrade you will only need to sign the necessary files and replace them in the `EFI/OC` directory. You won't need to repeat the key generation and key adding steps.   
+- To booting `KeyTool.efi`. Let's rename `KeyTool.efi` to `BOOTx64.efi` and put it in `USB/EFI/BOOT`    
 
 ## Credits
 
