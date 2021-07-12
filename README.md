@@ -7,7 +7,7 @@ __My Specs__
 | Specs | Details |
 |------------|-------------------------------|
 | Model | Acer Aspire VX15 (VX5-591G) |
-| OS | macOS Monterey && Windows 10  |
+| OS | macOS Monterey && Windows 11  |
 | CPU | Intel(R) Core(TM) i5 7300HQ |
 | RAM | 16 GB DDR4 2400MHz |
 | iGPU | Intel HD Graphics 630 |
@@ -40,9 +40,6 @@ __Not working__
 - [ ] SD Card reader
 - [ ] DRM
 - [ ] and a few other minor bugs
-
-If touchpad and USB port are not working  
-Use this repo: https://github.com/dongcodebmt/VX5-591G-OpenCore/tree/XOSI
 
 ## Guide
 
