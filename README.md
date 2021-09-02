@@ -7,32 +7,34 @@ __My Specs__
 | Specs | Details |
 |------------|-------------------------------|
 | Model | Acer Aspire VX15 (VX5-591G) |
-| OS | macOS Monterey && Windows 11  |
-| CPU | Intel(R) Core(TM) i5 7300HQ |
-| RAM | 16 GB DDR4 2400MHz |
-| iGPU | Intel HD Graphics 630 |
-| dGPU | NVIDIA GeForce GTX 1050M |
-| Touchpad | ELAN 0501 |
-| Wireless | Intel(R) Wireless-AC 7265 |
-| Audio | ALC255 |
+| Operating System | macOS Monterey && Windows 11  |
+| Processor | Intel Core i5 7300HQ |
+| Memory | Micron & G.Skill 2x8GB DDR4 2400MHz |
+| M.2 Hard Drive | Kingston A1000 240GB |
+| 2.5" Hard Drive | TOSHIBA MQ01ABD100 1TB |
+| Integrated Graphics | Intel HD Graphics 630 |
+| Dedicated Graphics | NVIDIA GeForce GTX 1050M |
+| Sound Card | Realtek ALC255 |
+| Wireless Card | Intel Wireless-AC 7265 |
+| Trackpad | ELAN 0501 |
 
 __Tested and working__
 
 - [x] Intel HD Graphics 630
-- [x] USB
+- [x] USB 3.0 + USB 2.0 + USB Type C
 - [x] Webcam
-- [x] LAN
+- [x] LAN + Wifi + Bluetooth
+- [x] M.2 and 2.5" SATA hard drive
 - [x] Screen brightness
 - [x] Battery status
 - [x] Sleep/Wake
 - [x] TouchPad with gestures
-- [x] WiFi
-- [x] Bluetooth
 - [x] HDMI + HDMI Audio
-- [x] Airdrop + Handoff
-- [x] Audio + Headphone + Internal Mic
-- [x] Keyboard with backlight (Some function keys not work)
+- [x] Airdrop + Handoff (with broadcom card)
+- [x] Audio (Speaker + Internal Mic + Headphone + External Mic)
+- [x] Keyboard with backlight (Some keys not work)
 - [x] iServices
+- [x] FileVault
 
 __Not working__
 
@@ -46,52 +48,29 @@ __Not working__
 __BIOS Settings (Version 1.08)__
 
 - Set Supervisor Password
-- Disable Secure Boot
+- Disable Secure Boot (Can be enabled if OpenCore signed)
 
 __OpenCore config__
 
-- Follow these instructions to configure your OpenCore: https://dortania.github.io/OpenCore-Install-Guide/  
+- Details and configuration of OpenCore:    
+https://dortania.github.io/OpenCore-Install-Guide/  
+https://github.com/acidanthera/OpenCorePkg  
 - ACPI Hotpatch: https://github.com/daliansky/OC-little  
-- Audio layout ID 29
+- USB Mapping: https://github.com/corpnewt/USBMap
 
 __Install MacOS__
 
 - Create bootable USB: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/  
 - If you have problems installing Catalina or later. Install Mojave then you can update to newer version.
 
-__USB Mapping__
+__Fix Audio__
 
-- USB Mapping: https://github.com/corpnewt/USBMap
+- Install Combo Jack to select input like Windows and fix audio problems 
+- Combo Jack: https://github.com/hackintosh-stuff/ComboJack  
 
 __Fix iServices__
 
 - Fix iServices: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html
-
-__Fix brightness key__
-
-Use patch `SSDT-BKEY.aml`  
-And at `Root > ACPI > Patch`:  
-- XQ11 Rename
-
-|Key|Type|Value|
-|---|---|---|
-|Comment|String|Change _Q11 to XQ11 (Brightness Down)|
-|Count|Number|0|
-|Enabled|Boolean|True|
-|Find|Data|5F513131|
-|Limit|Number|0|
-|Replace|Data|58513131|
-
-- XQ12 Rename
-
-|Key|Type|Value|
-|---|---|---|
-|Comment|String|Change _Q12 to XQ12 (Brightness Up)|
-|Count|Number|0|
-|Enabled|Boolean|True|
-|Find|Data|5F513132|
-|Limit|Number|0|
-|Replace|Data|58513132|
 
 __Fix Dual Boot__
 
@@ -100,7 +79,7 @@ __Fix Dual Boot__
 __UEFI Secure Boot__
 
 I will not give detailed instructions here. See details at [here](https://github.com/dortania/OpenCore-Post-Install/blob/secureboot/universal/security/uefisecureboot.md).  
-You will need linux. However for simplicity and speed I will use [CloudShell](https://console.cloud.google.com/getting-started?cloudshell=true).  
+You will need linux. However for simplicity I will use [CloudShell](https://console.cloud.google.com/getting-started?cloudshell=true).  
 ```console
 user@cloudshell:~$ sudo apt-get install -y gnu-efi help2man sbsigntool uuid-runtime libfile-slurp-unicode-perl
 user@cloudshell:~$ mkdir sign && cd sign
