@@ -1,1 +1,26 @@
-{"vi_VN":{"dialogTitle":"Combo Jack","dialogMsg":"Bạn vừa cắm cái gì vào? (Nhấn ESC để hủy)","btnHeadphone":"Headphones","btnCancel":"Huỷ","btnLinein":"Line-In","btnHeadset":"Headset"},"en_US":{"dialogTitle":"Combo Jack Notification","dialogMsg":"What did you just plug in? (Press ESC to cancel)","btnHeadphone":"Headphones","btnCancel":"Cancel","btnLinein":"Line-In","btnHeadset":"Headset"},"ru_RU":{"dialogTitle":"Combo Jack Notification","dialogMsg":"Какое устройство было подключено? (ESC для отмены)","btnHeadphone":"Наушники","btnCancel":"Отмена","btnLinein":"Линейный вход","btnHeadset":"Гарнитура"},"ru_UA":{"dialogTitle":"Combo Jack Notification","dialogMsg":"Какое устройство было подключено? (ESC для отмены)","btnHeadphone":"Наушники","btnCancel":"Отмена","btnLinein":"Линейный вход","btnHeadset":"Гарнитура"},"zh_CN":{"dialogTitle":"耳机接入通知","dialogMsg":"请选择接入的设备类型（按ESC键取消）","btnHeadphone":"耳机","btnCancel":"取消","btnLinein":"线路输入","btnHeadset":"耳麦"},"uk_UA":{"dialogTitle":"Combo Jack Notification","dialogMsg":"Який пристрій було підключено? (ESC для скасування)","btnHeadphone":"Навушники","btnCancel":"Скасувати","btnLinein":"Лінійний вхід","btnHeadset":"Гарнітура"}}
+{
+    "zh_CN": {
+        "dialogTitle" : "耳机接入通知",
+        "dialogMsg" : "请选择接入的设备类型（按ESC键取消）",
+        "btnHeadphone" : "耳机",
+        "btnLinein" : "线路输入",
+        "btnHeadset" : "耳麦",
+        "btnCancel" : "取消"
+    },
+    "en_US": {
+            "dialogTitle" : "Combo Jack Selection",
+            "dialogMsg" : "Select your device type (Press ESC to cancel)",
+            "btnHeadphone" : "Headphones",
+            "btnLinein" : "Line-In",
+            "btnHeadset" : "Headset",
+            "btnCancel" : "Cancel"
+    },
+    "vi_VN": {
+        "dialogTitle" : "Thông báo cắm tai nghe",
+        "dialogMsg" : "Lựa chọn loại thiết bị được cắm vào? (Bấm ESC để huỷ)",
+        "btnHeadphone" : "Tai nghe thường",
+        "btnLinein" : "Microphone",
+        "btnHeadset" : "Tai nghe có mic",
+        "btnCancel" : "Huỷ"
+    }
+}

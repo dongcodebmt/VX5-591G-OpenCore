@@ -65,8 +65,9 @@ __Install MacOS__
 
 __Fix Audio__
 
-- Install Combo Jack to select input like Windows and fix audio problems 
-- Combo Jack: https://github.com/hackintosh-stuff/ComboJack  
+- Layout ID 29/30/90
+- Install Combo Jack (with LayoutID 99) to select input like Windows and fix audio problems. 
+- Combo Jack: https://github.com/lvs1974/ComboJack  
 
 __Fix iServices__
 
