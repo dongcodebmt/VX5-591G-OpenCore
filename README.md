@@ -1,5 +1,8 @@
 # Acer Aspire VX15 Hackintosh
 
+_I no longer use hackintosh so this repo will not be maintained!_    
+_Just update OpenCore and kexts and you'll be fine 😉_
+
 ![Specs](/image.png)
 
 __My Specs__
